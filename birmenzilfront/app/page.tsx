@@ -1,7 +1,8 @@
+import HeroBanner from "@/sections/HeroBanner/herobanner"
 export default function Home() {
   return (
-    <h1>
-      aydan birmenzil front page
-    </h1>
+    <div className="h-screen bg-[#F2F3F4]">
+    <HeroBanner />
+    </div>
   )
 }
